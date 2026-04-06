@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2CC2C6A4-B4AF-4391-A282-6228680F754C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>二國殺.My.MyApplication</StartupObject>
+    <RootNamespace>二國殺</RootNamespace>
+    <AssemblyName>二國殺</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>二國殺.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>二國殺.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sanguoshaicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\開始畫面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240525_171524.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240525_1715241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240525_1715242.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240525_1715243.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f281.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_20240525_175635_com.playbest.sgs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_20240525_175635_com.playbest.sgs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_20240525_175635_com.playbest.sgs2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_20240525_180252_com.playbest.sgs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.99.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\第一頁1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\訊息欄.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\開始遊戲.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\武將.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\設定.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\客服.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\公告.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲說明.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\頭像.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\名字.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\儲值畫面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\儲值回車.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f282.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99.99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-26-13-56-49-997.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-26-13-58-29-632.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-26-14-03-49-254.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135233.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135314.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135345.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135915.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_135943.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_140003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240526_140012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\子鴻.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\子鴻勾.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\山水.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\山水勾.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合照.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合照勾.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\甄姬勾.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右-走路.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\子鴻儲值.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\山水儲值.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合照儲值.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\沒公告.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲背景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240527_113432.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\選角 框.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\選角框.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\選角框-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\535c5839eae6ef2e-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\技能說明.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\選角角色背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景999.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b5f73f4bf091e85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f533fc814250267.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3c888b5f066931b3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\194bf71cc7cc96a0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9932b212665f7199.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3526719f5b03aa4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1268b2f3048b1b6c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c80aad5520bdae74.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35cb094cc458e397.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73f329edacb9f791.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3c888b5f066931b31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85b84963695adffe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b38d175e484009a9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d14361c7e50a3bac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b63244a8d39f0b04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9ce70d5dd493ca71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5926cb347d768ed2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7520223ada8a1f6e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-47-09-005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-47-09-0051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-47-09-0052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-52-09-174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-52-09-1741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螢幕擷取畫面 2024-05-30 232012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-05-30-22-52-09-1742.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螢幕擷取畫面 2024-05-31 000259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b5f73f4bf091e851.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\角色邊框1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲內設定.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\叉叉.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\體力.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景9991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\問號.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\司馬懿.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\開戰.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\開戰1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\結束出牌.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\結束出牌1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增少量內文_page-0011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-0001.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-0002.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-0003.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-0004.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-0001 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20240612_220001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\殺_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\閃_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\桃_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\酒_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\樂不思蜀_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\火殺_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\諸葛連弩_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\八卦陣_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\藤甲_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\爪黃飛電_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\赤兔_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\五穀豐登_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\借刀殺人_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33703e0bf35a69f5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\過河拆橋_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\順手牽羊_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\南蠻入侵_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\兵糧寸斷_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\無懈可擊_暗.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-06-16-13-02-34-962.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\諸葛連弩_亮.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螢幕擷取畫面 2024-06-16 130545.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-06-17-01-09-20-150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-06-17-01-09-20-1501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1166fa5f3b29a52.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

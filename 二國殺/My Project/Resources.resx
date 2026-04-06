@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="29.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29.99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3526719f5b03aa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3526719f5b03aa4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="藤甲_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\藤甲_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_20240525_175635_com.playbest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_20240525_175635_com.playbest.sgs1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-06-16-13-02-34-962" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-06-16-13-02-34-962.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="遊戲背景1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\遊戲背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="遊戲說明" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\遊戲說明.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="赤兔_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\赤兔_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-0001 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-0001 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-0002.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="南蠻入侵_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\南蠻入侵_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_140012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_140012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="合照儲值" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\合照儲值.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9932b212665f7199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9932b212665f7199.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="選角框-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\選角框-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1268b2f3048b1b6c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1268b2f3048b1b6c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-52-09-1742" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-52-09-1742.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訊息欄" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訊息欄.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="殺_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\殺_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="角色邊框1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\角色邊框1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b63244a8d39f0b04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b63244a8d39f0b04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="諸葛連弩_亮" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\諸葛連弩_亮.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="儲值回車" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\儲值回車.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="子鴻勾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\子鴻勾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="開始遊戲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\開始遊戲.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="公告" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\公告.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山水儲值" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\山水儲值.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135345" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135345.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="兵糧寸斷_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\兵糧寸斷_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="順手牽羊_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\順手牽羊_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="儲值畫面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\儲值畫面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135233.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sanguoshaicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sanguoshaicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="無懈可擊_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\無懈可擊_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="五穀豐登_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\五穀豐登_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山水勾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\山水勾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5926cb347d768ed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5926cb347d768ed2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="技能說明" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\技能說明.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="結束出牌" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結束出牌.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f282.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="遊戲內設定" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\遊戲內設定.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-47-09-005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-47-09-005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c888b5f066931b31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3c888b5f066931b31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240525_1715242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240525_1715242.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_20240525_180252_com.playbest.sgs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_20240525_180252_com.playbest.sgs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="99.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\99.99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="退出" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\退出.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="司馬懿" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\司馬懿.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="螢幕擷取畫面 2024-06-16 130545" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\螢幕擷取畫面 2024-06-16 130545.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="開戰1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\開戰1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-06-17-01-09-20-1501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-06-17-01-09-20-1501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-47-09-0052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-47-09-0052.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-47-09-0051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-47-09-0051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="問號" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\問號.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="螢幕擷取畫面 2024-05-31 000259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\螢幕擷取畫面 2024-05-31 000259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="194bf71cc7cc96a0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\194bf71cc7cc96a0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="頭像" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\頭像.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240525_171524" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240525_171524.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="背景999" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\背景999.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="開戰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\開戰.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240525_1715243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240525_1715243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山水" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\山水.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-0003.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d14361c7e50a3bac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d14361c7e50a3bac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="設定" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\設定.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-26-13-56-49-997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-26-13-56-49-997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="酒_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\酒_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="客服" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\客服.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="叉叉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\叉叉.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0.99.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="諸葛連弩_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\諸葛連弩_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="合照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\合照.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9.99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240525_1715241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240525_1715241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="背景9991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\背景9991.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="甄姬勾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\甄姬勾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="遊戲背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\遊戲背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="過河拆橋_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\過河拆橋_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="武將" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\武將.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="閃_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\閃_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-0001.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桃_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桃_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135943" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135943.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="樂不思蜀_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\樂不思蜀_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="體力" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\體力.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnyConv.com__images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AnyConv.com__images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-06-17-01-09-20-150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-06-17-01-09-20-150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240527_113432" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240527_113432.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="結束出牌1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結束出牌1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="選角框" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\選角框.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135314" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135314.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240612_220001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240612_220001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="535c5839eae6ef2e-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\535c5839eae6ef2e-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-52-09-1741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-52-09-1741.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="名字" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\名字.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35cb094cc458e397" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35cb094cc458e397.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4.99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="85b84963695adffe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\85b84963695adffe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="第一頁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\第一頁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-26-13-58-29-632" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-26-13-58-29-632.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="爪黃飛電_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\爪黃飛電_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-0004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-0004.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="八卦陣_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\八卦陣_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="第一頁1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\第一頁1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_20240525_175635_com.playbest.sgs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_20240525_175635_com.playbest.sgs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1b5f73f4bf091e85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1b5f73f4bf091e85.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_140003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_140003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="選角角色背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\選角角色背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_20240525_175635_com.playbest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_20240525_175635_com.playbest.sgs2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c888b5f066931b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3c888b5f066931b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0009.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1b5f73f4bf091e851" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1b5f73f4bf091e851.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c80aad5520bdae74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c80aad5520bdae74.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f281.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33703e0bf35a69f5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33703e0bf35a69f5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="合照勾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\合照勾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0008.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-30-22-52-09-174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-30-22-52-09-174.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b38d175e484009a9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b38d175e484009a9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-05-26-14-03-49-254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-05-26-14-03-49-254.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右-走路" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\右-走路.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="開始畫面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\開始畫面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="沒公告" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\沒公告.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="借刀殺人_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\借刀殺人_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="螢幕擷取畫面 2024-05-30 232012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\螢幕擷取畫面 2024-05-30 232012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="子鴻" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\子鴻.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="選角 框" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\選角 框.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_2024-05-25-17-49-52-94_f60a6276e4e3888866de06e93f633f28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="73f329edacb9f791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73f329edacb9f791.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火殺_暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\火殺_暗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20240526_135915" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20240526_135915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7520223ada8a1f6e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7520223ada8a1f6e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="取消" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\取消.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增少量內文_page-0006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新增少量內文_page-0006.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1f533fc814250267" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1f533fc814250267.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="子鴻儲值" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\子鴻儲值.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9ce70d5dd493ca71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9ce70d5dd493ca71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d1166fa5f3b29a52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d1166fa5f3b29a52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
